@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f0ffff;
+}
+
+main{
+  display: flex;
+  width: 95vw;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  background: #161f9b;
+  width: 400px;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: 0 0 10px black;
+}
